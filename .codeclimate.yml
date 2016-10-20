@@ -4,6 +4,13 @@ engines:
     enabled: true
   foodcritic:
     enabled: true
+    config:
+---
+engines:
+  fixme:
+    enabled: true
+  foodcritic:
+    enabled: true
 ratings:
 ---
 engines:
