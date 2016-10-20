@@ -46,6 +46,13 @@ engines:
 		enabled: true
 	rubocop:
 		enabled: true
+	brakeman:
+---
+engines:
+	fixme:
+		enabled: true
+	rubocop:
+		enabled: true
 ratings:
 ---
 engines:
