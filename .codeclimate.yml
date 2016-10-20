@@ -2,6 +2,13 @@
 engines:
   fixme:
     enabled: true
+  rubocop:
+    enabled: true
+  brakeman:
+---
+engines:
+  fixme:
+    enabled: true
 ratings:
   paths: []
 exclude_paths: []
