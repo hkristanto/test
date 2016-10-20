@@ -2,6 +2,13 @@
 engines:
   fixme:
     enabled: true
+  foodcritic:
+    enabled: true
+ratings:
+---
+engines:
+  fixme:
+    enabled: true
   rubocop:
     enabled: true
 ratings:
