@@ -8,18 +8,11 @@ engines:
     enabled: true
   eslint:
     enabled: true
-  csslint:
-    enabled: true
   duplication:
     enabled: true
     config:
       languages:
-      - ruby
-      - javascript
       - java
-exclude_paths:
-- spec/**/*
-- "**/vendor/**/*"
 ratings:
   paths: []
 exclude_paths: []
