@@ -15,3 +15,6 @@ engines:
       - php
   nodesecurity:
     enabled: false
+ratings:
+  paths:
+  - "**"
