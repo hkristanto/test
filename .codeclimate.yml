@@ -9,6 +9,13 @@ engines:
 engines:
   fixme:
     enabled: true
+  duplication:
+    enabled: true
+    config:
+---
+engines:
+  fixme:
+    enabled: true
   foodcritic:
     enabled: true
     config:
