@@ -2,6 +2,13 @@
 engines:
   fixme:
     enabled: true
+  eslint:
+    enabled: true
+    config:
+---
+engines:
+  fixme:
+    enabled: true
   duplication:
     enabled: true
     config:
