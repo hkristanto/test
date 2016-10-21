@@ -17,4 +17,7 @@ engines:
     enabled: false
 ratings:
   paths:
-  - "**"
+  - "app/**/*"
+  - "lib/**/*"
+  - "**.rb"
+  - "**.go"
