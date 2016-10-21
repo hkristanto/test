@@ -4,67 +4,14 @@ engines:
     enabled: true
   eslint:
     enabled: true
-    config:
----
-engines:
-  fixme:
-    enabled: true
-  eslint:
-    enabled: true
-    config:
----
-engines:
-  fixme:
-    enabled: true
+    config: 
   duplication:
     enabled: true
     config:
----
-engines:
-  fixme:
-    enabled: true
-  duplication:
-    enabled: true
-    config:
----
-engines:
-  fixme:
-    enabled: true
-  foodcritic:
-    enabled: true
-    config:
----
-engines:
-  fixme:
-    enabled: true
-  foodcritic:
-    enabled: true
-ratings:
----
-engines:
-  fixme:
-    enabled: true
-  rubocop:
-    enabled: true
-ratings:
----
-engines:
-  fixme:
-    enabled: true
-  rubocop:
-    enabled: true
-  brakeman:
----
-engines:
-  fixme:
-    enabled: true
-  rubocop:
-    enabled: true
-  brakeman:
----
-engines:
-  fixme:
-    enabled: true
-ratings:
-  paths: []
-exclude_paths: []
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  nodesecurity:
+    enabled: false
